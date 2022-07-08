@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-color: hsl(223, 62%, 88%);
+    padding: 40px;
+}
+
+@media screen and (min-width:670px){
+    .container{
+        background-image:url(../images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+       
+    }
+    
+}
+
+.card{
+    background-color: hsl(225, 100%, 98%);
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.bottomcard{
+    padding: 20px;
+}
+
+#text{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+h2, h3{
+    color: hsl(223, 47%, 23%);
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+}
+
+.annualplan{
+    background-color:hsl(225, 80%, 96%);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.change{
+    margin-top:17px;
+}
+
+div a:hover{
+    text-decoration: none;
+}
+
+button{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-color: hsl(245, 75%, 52%);
+    color:hsl(225, 100%, 94%) ;
+    padding:12px 52px ;
+    border: hidden;
+    border-radius:12px ;
+    box-shadow: 5px 10px ;
+    margin: 20px 0  20px 0;
+}
+
+button:hover{
+    background-color:hsl(224, 23%, 55%) ;
+}
+
+.cancelorder a{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
